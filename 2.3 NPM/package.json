@@ -1,0 +1,15 @@
+{
+  "name": "trying",
+  "version": "1.0.0",
+  "description": "Just trying npm init",
+  "license": "ISC",
+  "author": "Bhaskar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sillyname": "^0.1.0"
+  }
+}
