@@ -6,11 +6,17 @@
 
 
 import inquirer from 'inquirer';
-import qr from 'qr-image';
-import fs from 'fs';
+import qr from 'qr-image';  // this package creates qr images
+import fs from 'fs';  // this package handles file system
+// importing npm modules
 
-inquirer
-  .prompt([
+
+// inquirer is used to ask quesitons in terminal
+
+
+
+
+inquirer.prompt([
     {
         message: "Type Your URL Here",
         name: "URL",
